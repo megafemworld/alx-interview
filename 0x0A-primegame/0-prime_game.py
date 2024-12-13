@@ -1,14 +1,14 @@
-#!/usr/env python3
+#!/usr/bin/python3
 """
     Prime Game
 """
 
 def isWinner(x, nums):
-    """_summary_
+    """isWinner
 
     Args:
-        x (_type_): _description_
-        nums (_type_): _description_
+        x`: numbers of rounds
+        nums: array of n integers
     """
     if x == 0 or x == 1:
         return None
